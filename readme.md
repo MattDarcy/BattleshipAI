@@ -4,8 +4,6 @@
 
 A 0/1/2-player battleship game implemented in Ruby:
 
-![](raw/C_TicTacToe.gif "Tic-Tac-Toe in C")
-
 **Features**
 
 * Random placement of ships for both players
@@ -17,6 +15,7 @@ A 0/1/2-player battleship game implemented in Ruby:
 
 **To Play**
 
+* Clone or download repository
 * With Ruby installed on your machine, navigate to directory of app.rb
   > ruby app.rb
 
@@ -25,7 +24,7 @@ A 0/1/2-player battleship game implemented in Ruby:
 * When asked 'Will you play the PC? (yes/no)' reply:
   > pcpc
 
-![](raw/BattleshipAI.gif "BattleshipAI in Ruby")
+![](res/Ruby_BSAI.gif "BattleshipAI in Ruby")
 
 ---
 
