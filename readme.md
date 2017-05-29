@@ -1,10 +1,6 @@
 # BattleshipAI
 
----
-
 A 0/1/2-player battleship game implemented in Ruby:
-
-![](raw/C_TicTacToe.gif "Tic-Tac-Toe in C")
 
 **Features**
 
@@ -17,6 +13,7 @@ A 0/1/2-player battleship game implemented in Ruby:
 
 **To Play**
 
+* Clone or download repository
 * With Ruby installed on your machine, navigate to directory of app.rb
   > ruby app.rb
 
@@ -25,7 +22,13 @@ A 0/1/2-player battleship game implemented in Ruby:
 * When asked 'Will you play the PC? (yes/no)' reply:
   > pcpc
 
-![](raw/BattleshipAI.gif "BattleshipAI in Ruby")
+![](res/Ruby_BSAI.gif "BattleshipAI in Ruby")
+
+**PC Guessing**
+
+PC players will randomly choose a coordinate pair on the opposing player's game board that has not yet been fired at. In the event of a hit, the PC player will add the adjacent (not yet fired upon) 4 coordinate pairs to a queue. When another hit occurs along the same ship's segment, the adjacent (4 - 1) coordinate pairs are added to the queue. Random guessing occurs again once an entire ship of the opponent's board is hit and surrounded by misses.
+
+![](res/Hits.gif "Hits Surrounded By Misses")
 
 ---
 
